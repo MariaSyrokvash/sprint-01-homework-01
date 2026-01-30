@@ -1,0 +1,10 @@
+export const VIDEO_VALIDATION_LIMITS = {
+  TITLE_MAX_LENGTH: 40,
+  AUTHOR_MAX_LENGTH: 20,
+  MIN_AGE_RESTRICTION: 1,
+  MAX_AGE_RESTRICTION: 18,
+} as const;
+
+export const TIME_LIMITS = {
+  MILLISECONDS_IN_DAY: 24 * 60 * 60 * 1000,
+} as const;
